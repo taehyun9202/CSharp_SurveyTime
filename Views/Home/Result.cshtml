@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <h1 style="padding-left: 65px;">SURVEY RESULT</h1>
+    <fieldset style="width: 360px;">
+        <p>Name: @ViewBag.SurveyInfo[0]</p>
+        <p>Location: @ViewBag.SurveyInfo[1]</p>
+        <p>Fav Language: @ViewBag.SurveyInfo[2]</p>
+        <p>Comment: @ViewBag.SurveyInfo[3]</p>
+    </fieldset>
+</body>
+</html>
